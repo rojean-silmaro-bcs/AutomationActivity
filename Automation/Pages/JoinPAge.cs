@@ -150,7 +150,7 @@ namespace Automation.Pages
 
             try
             {
-                Browser.FindElement(By.XPath("//*[@id='my-account']//*[contains(text(),'Logout')]"), "Logout text", 30);
+                Browser.FindElement(By.XPath("//*[@id='my-account']//*[contains(text(),'Logout')]"), "Logout text", 60);
 
                 return true;
             }

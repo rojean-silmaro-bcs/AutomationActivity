@@ -36,3 +36,6 @@ C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\WebDriver.S
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.dll
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.pdb
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\Automation.dll.config
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.csproj.CoreCompileInputs.cache
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.csproj.CopyComplete
