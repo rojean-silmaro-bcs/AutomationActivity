@@ -88,7 +88,7 @@ namespace Automation
         public static void CloseAndQuit()
         {
             Thread.Sleep(2000);
-            webDriver.Close();
+            //webDriver.Close();
             webDriver.Quit();
             KillProcess();
         }

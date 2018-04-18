@@ -132,7 +132,13 @@ namespace Test.StepDefinition
 
         public void SetLogMessage(Exception e)
         {
-            DefaultErrorLog("Failed", e.Message, e.StackTrace);
+            //DefaultErrorLog("Failed", e.Message, e.StackTrace);
+
+            strBldr = new StringBuilder("");
+
+            strBldr.AppendLine("Status : Failed");
+            strBldr.AppendLine("Error Message : " + e.Message);
+            strBldr.AppendLine("Error StackTrace : " + e.StackTrace);
 
             LogMessage = strBldr.ToString();
         }
