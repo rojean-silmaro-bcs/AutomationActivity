@@ -38,7 +38,7 @@ namespace Test.StepDefinition
         {
             get
             {
-                logFileName = Environment.CurrentDirectory + string.Format("\\ResultLogs{0}.txt", DateTime.Now.ToString("ddMMyyyyHHmmss"));
+                logFileName = Environment.CurrentDirectory + string.Format("\\ResultLogs{0}.txt", DateTime.Now.ToString("ddMMyyyyHHmmss"));     //this is working on local
 
                 return logFileName;
             }

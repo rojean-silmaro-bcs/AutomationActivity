@@ -86,7 +86,7 @@ namespace Test.StepDefinition
                 jp.InputLastName(LastName);
                 jp.SelectPhoneNumberType(PhoneNumberType);
                 jp.InputPhoneNumber(PhoneNumber);
-                this.EmailAddress = jp.InputEmailAddress(UserName, DomainName);
+                EmailAddress = jp.InputEmailAddress(UserName, DomainName);
                 jp.ConfirmEmailAddress(EmailAddress);
                 jp.InputStreetAddress(StreetAddress);
                 jp.InputSuburbCity(City);
