@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
-using TechTalk.SpecFlow;
 
 namespace Test.StepDefinition
 {
@@ -67,21 +66,6 @@ namespace Test.StepDefinition
         public string PhoneNumberType { get; set; }
         public string Country { get; set; }
         public string State { get; set; }
-
-        private string screenshotFileName;
-
-        public string ScreenshotFileName
-        {
-            get
-            {
-                //screenshotFileName = Environment.CurrentDirectory + ScenarioContext.Current.ScenarioInfo.Title + ".jpeg";
-                screenshotFileName = string.Format("{0}\\{1}{2}.jpeg", Environment.CurrentDirectory, ScenarioContext.Current.ScenarioInfo.Title, DateTime.Now.ToString("ddMMyyyyHHmmss"));
-
-                return screenshotFileName;
-            }
-
-            set { screenshotFileName = value; }
-        }
 
         public void BaseInitialize()
         {
@@ -148,13 +132,13 @@ namespace Test.StepDefinition
 
         public void SetLogMessage(Exception e)
         {
-            DefaultErrorLog("Failed", e.Message, e.StackTrace);
+            //DefaultErrorLog("Failed", e.Message, e.StackTrace);
 
-            //strBldr = new StringBuilder("");
+            strBldr = new StringBuilder("");
 
-            //strBldr.AppendLine("Status : Failed");
-            //strBldr.AppendLine("Error Message : " + e.Message);
-            //strBldr.AppendLine("Error StackTrace : " + e.StackTrace);
+            strBldr.AppendLine("Status : Failed");
+            strBldr.AppendLine("Error Message : " + e.Message);
+            strBldr.AppendLine("Error StackTrace : " + e.StackTrace);
 
             LogMessage = strBldr.ToString();
         }
@@ -180,11 +164,6 @@ namespace Test.StepDefinition
             strBldr.AppendLine("Status : " + status);
             strBldr.AppendLine("Error Message : " + errorMsg);
             strBldr.AppendLine("Error StackTrace : " + stackTrace);
-        }
-
-        public void Screenshot()
-        {
-            Logger.Screenshots(this.ScreenshotFileName);
         }
     }
 }

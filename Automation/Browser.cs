@@ -74,11 +74,6 @@ namespace Automation
             }
         }
 
-        public static void ScrollToTop()
-        {
-            ((IJavaScriptExecutor)Browser.WebDriver).ExecuteScript(String.Format("window.scrollBy({0}, {1})", 0, -10000));
-        }
-
         public static void KillProcess()
         {
             var chromeDriverProcesses = Process.GetProcesses().
