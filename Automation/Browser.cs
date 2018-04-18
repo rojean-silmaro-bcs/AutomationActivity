@@ -59,7 +59,7 @@ namespace Automation
             webDriver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(20);
             browserName = "Chrome (Desktop)";
 
-            js = (IJavaScriptExecutor)webDriver;
+            //js = (IJavaScriptExecutor)webDriver;
         }
 
         public static void GoTo(string url)
@@ -88,7 +88,7 @@ namespace Automation
         public static void CloseAndQuit()
         {
             Thread.Sleep(2000);
-            //webDriver.Close();
+            webDriver.Close();
             webDriver.Quit();
             KillProcess();
         }

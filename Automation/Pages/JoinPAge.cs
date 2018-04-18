@@ -55,14 +55,7 @@ namespace Automation.Pages
 
         public string InputEmailAddress(string user, string domain)
         {
-            DateTime localDate = DateTime.Now;
-            int date = localDate.Day;
-            int month = localDate.Month;
-            int year = localDate.Year;
-            int hour = localDate.Hour;
-            int min = localDate.Minute;
-            int sec = localDate.Second;
-            string emailAddress = String.Concat(user, date, month, year, hour, min, sec, domain);
+            string emailAddress = String.Concat(user, DateTime.Now.ToString("ddMMyyyyHHmmss"), domain);
 
             var email = Browser.FindElement(By.Id("EmailAddress"), "Email Address", 0);
             Command.SendKeys(email, emailAddress, "Email Address");

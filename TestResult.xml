@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Failed" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-04-18 02:35:15Z" end-time="2018-04-18 02:35:18Z" duration="3.625526">
+  <command-line><![CDATA[nunit3-console  "C:\Program Files (x86)\Jenkins\workspace\master_pull\Test\bin\Release\Test.dll" --test=Test.Features.CreateAccountFeature]]></command-line>
+  <filter>
+    <test>Test.Features.CreateAccountFeature</test>
+  </filter>
+  <test-suite type="Assembly" id="0-1004" name="Test.dll" fullname="C:\Program Files (x86)\Jenkins\workspace\master_pull\Test\bin\Release\Test.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-04-18 02:35:15Z" end-time="2018-04-18 02:35:18Z" duration="2.689158" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Users\BCS-Manila\source\repos\AutomationActivity" machine-name="BCS-SILMAROR" user="BCS-Manila" user-domain="BCS-SILMAROR" culture="en-PH" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\BCS-Manila\source\repos\AutomationActivity" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="13084" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1005" name="Test" fullname="Test" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-04-18 02:35:15Z" end-time="2018-04-18 02:35:18Z" duration="2.668291" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1006" name="Features" fullname="Test.Features" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2018-04-18 02:35:15Z" end-time="2018-04-18 02:35:18Z" duration="2.667871" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="0-1002" name="CreateAccountFeature" fullname="Test.Features.CreateAccountFeature" classname="Test.Features.CreateAccountFeature" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-04-18 02:35:15Z" end-time="2018-04-18 02:35:18Z" duration="2.662612" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="CreateAccount" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <output><![CDATA[-> Using app.config
+]]></output>
+          <test-case id="0-1003" name="UserSuccessfullyCreateAnAccount" fullname="Test.Features.CreateAccountFeature.UserSuccessfullyCreateAnAccount" methodname="UserSuccessfullyCreateAnAccount" classname="Test.Features.CreateAccountFeature" runstate="Runnable" seed="1137261187" result="Failed" label="Error" start-time="2018-04-18 02:35:16Z" end-time="2018-04-18 02:35:18Z" duration="2.303537" asserts="0">
+            <properties>
+              <property name="Category" value="CreateAccount" />
+              <property name="Description" value="User Successfully create an account" />
+            </properties>
+            <failure>
+              <message><![CDATA[TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+              <stack-trace><![CDATA[--TearDown
+   at Automation.Browser.CloseAndQuit() in c:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\Browser.cs:line 91
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnScenarioEnd()]]></stack-trace>
+            </failure>
+            <output><![CDATA[Given Ms as title, Hymie as first name, Test as last name, Mobile as phone number type, +639123456789 as mobile, bcs#@webjet.com.au as email, staddr as st. addr., Manila as city, Australia as country, QLD as state, 1234 as postcode, 123pass as password, town as security question, prov as security answer, 16/04/1998 as birthdate, https://devci.webjet.com.au/FlightSearch as url
+-> done: CreateAccountSteps.GivenIFillUpUserAccountDetails("Ms", "Hymie", "Test", "Mobile", "+639123456789", "bcs", "@webjet.com.au", "staddr", "Manila", "Australia", "QLD", "1234", "123pass", "town", "prov", "16/04/1998", "https://devci.web...") (0.0s)
+When I go to home page
+-> done: CreateAccountSteps.WhenIGoToHomePage() (0.0s)
+Then sign up for an account using the given details
+-> done: CreateAccountSteps.ThenSignUpForAnAccountUsingTheGivenDetails() (0.0s)
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
