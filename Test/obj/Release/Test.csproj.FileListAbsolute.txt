@@ -21,6 +21,7 @@ C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\TechTalk.Sp
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\WebDriver.dll
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\WebDriver.Support.dll
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\Automation.pdb
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\Automation.dll.config
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\HtmlAgilityPack.pdb
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\HtmlAgilityPack.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\MongoDB.Bson.xml
@@ -34,8 +35,7 @@ C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\System.Web.
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\WebDriver.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\WebDriver.Support.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
-C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.dll
-C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.pdb
-C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\bin\Release\Automation.dll.config
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.csproj.CoreCompileInputs.cache
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.csproj.CopyComplete
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.dll
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Test\obj\Release\Test.pdb
