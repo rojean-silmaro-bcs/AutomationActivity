@@ -58,7 +58,11 @@ namespace Test.StepDefinition
         public string SecQ { get; set; }
         public string SecA { get; set; }
         public string Birthdate { get; set; }
-        public string EmailAddress { get; set; }
+        private string emailAddress = string.Empty;
+        public string EmailAddress
+        {   get { return emailAddress; }
+            set { emailAddress = value; }
+        }
         public string PhoneNumberType { get; set; }
         public string Country { get; set; }
         public string State { get; set; }
