@@ -30,6 +30,7 @@ C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Debug\RazorEn
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Debug\System.Web.Razor.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Debug\WebDriver.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Debug\WebDriver.Support.xml
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Debug\Automation.csproj.CoreCompileInputs.cache
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Debug\Automation.csproj.CopyComplete
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Debug\Automation.dll

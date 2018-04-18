@@ -140,6 +140,13 @@ namespace Test.StepDefinition
             LogMessage = strBldr.ToString();
         }
 
+        public void SetLogMessage(NullReferenceException nre)
+        {
+            DefaultErrorLog("Failed", nre.Message, nre.StackTrace);
+
+            LogMessage = strBldr.ToString();
+        }
+
         private void DefaultErrorLog(string status, string errorMsg, string stackTrace)
         {
             strBldr = new StringBuilder("");

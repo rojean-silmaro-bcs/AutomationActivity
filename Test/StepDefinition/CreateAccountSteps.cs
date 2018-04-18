@@ -86,7 +86,7 @@ namespace Test.StepDefinition
                 jp.InputLastName(LastName);
                 jp.SelectPhoneNumberType(PhoneNumberType);
                 jp.InputPhoneNumber(PhoneNumber);
-                EmailAddress = jp.InputEmailAddress(UserName, DomainName);
+                this.EmailAddress = jp.InputEmailAddress(UserName, DomainName);
                 jp.ConfirmEmailAddress(EmailAddress);
                 jp.InputStreetAddress(StreetAddress);
                 jp.InputSuburbCity(City);
@@ -107,16 +107,21 @@ namespace Test.StepDefinition
             {
                 this.SetLogMessage(ioe);
             }
+            catch (NullReferenceException nre)
+            {
+                this.SetLogMessage(nre);
+            }
+
             catch (Exception e)
             {
                 this.SetLogMessage(e);
             }
+            this.SetLogMessage();
         }
 
         [AfterScenario("CreateAccount")]
         public void Cleanup()
-        {
-            this.SetLogMessage();
+        {  
             this.Log(SiteUrl);
             Browser.CloseAndQuit();
         }
