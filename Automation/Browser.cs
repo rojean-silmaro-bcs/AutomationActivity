@@ -18,7 +18,7 @@ namespace Automation
     {
         static IWebDriver webDriver = null;
         static string browserName = string.Empty;
-        static IJavaScriptExecutor js = null;
+        public static IJavaScriptExecutor js = null;
 
         public static IWebDriver WebDriver
         {
