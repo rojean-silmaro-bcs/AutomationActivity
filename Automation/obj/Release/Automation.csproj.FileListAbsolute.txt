@@ -34,3 +34,4 @@ C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Autom
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csproj.CopyComplete
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.dll
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.pdb
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csprojResolveAssemblyReference.cache

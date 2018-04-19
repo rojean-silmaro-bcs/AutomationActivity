@@ -18,9 +18,6 @@ namespace Automation
                 StreamWriter sw;
                 if (!File.Exists(fileName))
                 {
-                    //if(!Directory.Exists(resultsFolderPath))
-                    //    Directory.CreateDirectory(resultsFolderPath);
-
                     sw = File.CreateText(fileName);
 
                     if (!string.IsNullOrWhiteSpace(url))

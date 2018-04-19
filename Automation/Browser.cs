@@ -14,10 +14,10 @@ using OpenQA.Selenium.Support.UI;
 
 namespace Automation
 {
-    public class Browser
+    public static class Browser
     {
-        static IWebDriver webDriver = null;
-        static string browserName = string.Empty;
+        public static IWebDriver webDriver = null;
+        public static string browserName = string.Empty;
         public static IJavaScriptExecutor js = null;
 
         public static IWebDriver WebDriver
@@ -59,7 +59,7 @@ namespace Automation
             webDriver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(20);
             browserName = "Chrome (Desktop)";
 
-            //js = (IJavaScriptExecutor)webDriver;
+            js = (IJavaScriptExecutor)webDriver;
         }
 
         public static void GoTo(string url)

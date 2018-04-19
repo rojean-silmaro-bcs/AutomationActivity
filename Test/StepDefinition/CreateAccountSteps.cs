@@ -103,14 +103,14 @@ namespace Test.StepDefinition
 
                 Assert.True(jp.CheckIfLoggedIn());
             }
-            //catch (InvalidOperationException ioe)
-            //{
-            //    this.SetLogMessage(ioe);
-            //}
-            //catch (NullReferenceException nre)
-            //{
-            //    this.SetLogMessage(nre);
-            //}
+            catch (InvalidOperationException ioe)
+            {
+                this.SetLogMessage(ioe);
+            }
+            catch (NullReferenceException nre)
+            {
+                this.SetLogMessage(nre);
+            }
             catch (Exception e)
             {
                 this.SetLogMessage(e);
