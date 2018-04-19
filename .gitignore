@@ -1,2 +1,2 @@
 #Exclude everything under Test/Results/ folder
-Test/Results/*
+./Test/Results/*
