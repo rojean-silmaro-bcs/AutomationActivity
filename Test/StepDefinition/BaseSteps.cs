@@ -68,7 +68,7 @@ namespace Test.StepDefinition
         public string Country { get; set; }
         public string State { get; set; }
 
-        private string screenshotFileName;
+         private string screenshotFileName;
 
         public string ScreenshotFileName
         {
@@ -181,7 +181,6 @@ namespace Test.StepDefinition
             strBldr.AppendLine("Error Message : " + errorMsg);
             strBldr.AppendLine("Error StackTrace : " + stackTrace);
         }
-
         public void Screenshot()
         {
             Logger.Screenshots(this.ScreenshotFileName);

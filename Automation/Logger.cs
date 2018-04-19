@@ -42,8 +42,7 @@ namespace Automation
             }
             catch
             {
-
-            }
+}
         }
 
         public static void Screenshots(string fileName)
@@ -155,7 +154,5 @@ namespace Automation
         }
 
         public static void Dispose() { }
-
-
     }
 }

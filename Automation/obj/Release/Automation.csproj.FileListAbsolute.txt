@@ -30,6 +30,7 @@ C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Release\Razor
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Release\System.Web.Razor.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Release\WebDriver.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Release\WebDriver.Support.xml
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csprojResolveAssemblyReference.cache
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csproj.CoreCompileInputs.cache
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csproj.CopyComplete
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.dll
