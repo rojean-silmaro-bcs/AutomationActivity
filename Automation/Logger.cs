@@ -1,8 +1,6 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -45,6 +43,7 @@ namespace Automation
 }
         }
 
+<<<<<<< HEAD
         public static void Screenshots(string fileName)
         {
             IWebDriver webDriver = null;
@@ -154,5 +153,23 @@ namespace Automation
         }
 
         public static void Dispose() { }
+=======
+        //public static void Screenshots(string fileName)
+        //{
+        //    IWebDriver webDriver = null;
+        //    if (Browser.WebDriver != null) { webDriver = Browser.WebDriver; }
+
+        //    try
+        //    {
+        //        Browser.ScrollToTop();
+
+        //        var screenshot = GetFullPageScreenshot();
+        //        screenshot.Save(fileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+        //    }
+        //    catch (Exception)
+        //    {
+        //    }
+        //}
+>>>>>>> a85f4627529e05f7678ec255b59c90f23b834e17
     }
 }

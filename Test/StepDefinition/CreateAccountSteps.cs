@@ -123,7 +123,6 @@ namespace Test.StepDefinition
         public void Cleanup()
         {  
             this.Log(SiteUrl);
-            this.Screenshot();
             Browser.CloseAndQuit();
         }
     }

@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
-using TechTalk.SpecFlow;
 
 namespace Test.StepDefinition
 {
@@ -68,6 +67,7 @@ namespace Test.StepDefinition
         public string Country { get; set; }
         public string State { get; set; }
 
+<<<<<<< HEAD
          private string screenshotFileName;
 
         public string ScreenshotFileName
@@ -83,6 +83,8 @@ namespace Test.StepDefinition
             set { screenshotFileName = value; }
         }
 
+=======
+>>>>>>> a85f4627529e05f7678ec255b59c90f23b834e17
         public void BaseInitialize()
         {
             string assemblyPath = AppDomain.CurrentDomain.BaseDirectory;
@@ -148,13 +150,13 @@ namespace Test.StepDefinition
 
         public void SetLogMessage(Exception e)
         {
-            DefaultErrorLog("Failed", e.Message, e.StackTrace);
+            //DefaultErrorLog("Failed", e.Message, e.StackTrace);
 
-            //strBldr = new StringBuilder("");
+            strBldr = new StringBuilder("");
 
-            //strBldr.AppendLine("Status : Failed");
-            //strBldr.AppendLine("Error Message : " + e.Message);
-            //strBldr.AppendLine("Error StackTrace : " + e.StackTrace);
+            strBldr.AppendLine("Status : Failed");
+            strBldr.AppendLine("Error Message : " + e.Message);
+            strBldr.AppendLine("Error StackTrace : " + e.StackTrace);
 
             LogMessage = strBldr.ToString();
         }
@@ -181,9 +183,12 @@ namespace Test.StepDefinition
             strBldr.AppendLine("Error Message : " + errorMsg);
             strBldr.AppendLine("Error StackTrace : " + stackTrace);
         }
+<<<<<<< HEAD
         public void Screenshot()
         {
             Logger.Screenshots(this.ScreenshotFileName);
         }
+=======
+>>>>>>> a85f4627529e05f7678ec255b59c90f23b834e17
     }
 }

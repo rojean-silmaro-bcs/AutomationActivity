@@ -31,7 +31,12 @@ C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Release\Syste
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Release\WebDriver.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\bin\Release\WebDriver.Support.xml
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csproj.CoreCompileInputs.cache
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csproj.CopyComplete
+=======
+>>>>>>> a85f4627529e05f7678ec255b59c90f23b834e17
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.dll
 C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.pdb
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csproj.CoreCompileInputs.cache
+C:\Users\BCS-Manila\source\repos\AutomationActivity\Automation\obj\Release\Automation.csproj.CopyComplete
